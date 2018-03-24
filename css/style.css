@@ -17,7 +17,12 @@ body{
 	background-position: center center;
 	background-size: cover;
 }
-/* ==== Header ======= */
+/* =========================
+   ===   Header ====
+   ========================
+*/
+
+/* ==== Very top bar ======= */
 
 .brn-header .brn-very-top-bar {
 	min-height: 25px;
@@ -182,4 +187,48 @@ body{
 	border-color: #fff;
 	
 }
+/* =========================
+   ===  End of Header ====
+   ========================
+*/
 
+/* =========================
+   ===   About Section ====
+   ========================
+*/
+
+.brn-about {
+	padding: 80px 0;
+
+}
+.brn-about .brn-about-title {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+.brn-about .brn-about-description {
+	margin: 0 auto 80px;
+	padding: 0;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	text-align: center;
+
+}
+.brn-about .brn-about-content {
+	display: inline-block;
+	max-width: 49%;
+}
+.brn-about .brn-about-card {
+	display: inline-block;
+	max-width: 49%;
+}
+.brn-about .brn-about-image {
+	display: inline-block;
+	max-width: 49%;
+}
+.brn-about .brn-about-image img {
+	max-width: 100%;
+}
