@@ -14,6 +14,8 @@ body{
 .brn-header{
 	background-image: url(../images/backgrounds/01.png);
 	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
 }
 /* ==== Header ======= */
 
@@ -73,11 +75,12 @@ body{
 /* ==== Navbar ======= */
 .brn-header .brn-navbar {
 	min-height: 80px;
-	background-color: rgba(37,37,37,.8)
+	background-color: rgba(0, 0, 0, 0.7);
 }
 .brn-header .brn-navbar .brn-logo {
 	float: left;
 	display: inline-block;
+	color: #fff;
 }
 .brn-header .brn-navbar .brn-navbar-menu {
 	float: right;
@@ -94,11 +97,12 @@ body{
 	padding-top: 28px
 }
 .brn-header .brn-navbar .brn-navbar-menu ul li a {
-	color: inherit;
+	color: #fff;
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 14px;
 	text-decoration: none;
 	text-transform: uppercase;
+	transition: .3s ease-in-out;
 }
 
 .brn-header .brn-navbar .brn-navbar-menu ul li a:hover {
@@ -115,13 +119,19 @@ body{
 }
 .brn-big-title-section .brn-bts-subtitle {
 	text-transform: uppercase;
+	color: #fff;
+	font-size: 18px;
 }
 .brn-big-title-section .brn-bts-title {
 	text-transform: uppercase;
+	color: #fff;
+	font-size: 40px;
 }
 .brn-big-title-section .brn-bts-description{
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 14px;
+	color: #fff;
+	margin-bottom: 80px;
 
 }
 .brn-big-title-section .bts-btn {
@@ -135,17 +145,41 @@ body{
 }
 .brn-big-title-section .bts-btn ul li {
 	display: inline-block;
-	padding: 15px;
-	padding-right: 25px;
-	padding-left: 25px;
-	margin-right: 20px;
-	border: 3px solid red;
-	background-color: red;
 }
 .brn-big-title-section .bts-btn ul li a {
+	padding: 15px 25px 17px;
 	color: white;
+	border: 1px solid #fff;
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 14px;
 	text-decoration: none;
 	text-transform: uppercase;
+	transition: .5s ease-in-out;
 }
+
+
+.brn-big-title-section .bts-btn .btn-1 {
+	
+	margin-right: 20px;
+}
+.brn-big-title-section .bts-btn .btn-1 a {
+	color: white;
+}
+.brn-big-title-section .bts-btn .btn-1 a:hover {
+	background-color: #D01818;
+	border-color: #D01818;
+}
+.brn-big-title-section .bts-btn .btn-2 {
+	
+}
+.brn-big-title-section .bts-btn .btn-2 a {
+	background-color: #D01818;
+	border-color: #D01818;
+	color: white;
+}
+.brn-big-title-section .bts-btn .btn-2 a:hover {
+	background-color: transparent;
+	border-color: #fff;
+	
+}
+
