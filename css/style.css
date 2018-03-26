@@ -101,21 +101,81 @@ body{
 	margin-right: 15px;
 	padding-top: 28px
 }
-.brn-header .brn-navbar .brn-navbar-menu ul li a {
+.brn-header .brn-navbar .brn-navbar-menu ul li > a {
 	color: #fff;
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 14px;
 	text-decoration: none;
 	text-transform: uppercase;
 	transition: .3s ease-in-out;
+	padding: 34px 0;
 }
 
-.brn-header .brn-navbar .brn-navbar-menu ul li a:hover {
-	font-family: Verdana, Geneva, sans-serif;
+.brn-header .brn-navbar .brn-navbar-menu ul li > a:hover {
 	color: #D01818;
-    transition: .3s ease-in-out;
-} 
+}
 
+/* DROP DONW BUTTON @@@@@@@@@@@@*/
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+  	background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    margin-top: 31px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+}
+
+.brn-navbar-menu .dropdown .dropdown-content a {
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px rgba(0, 0, 0, 0.6) solid;
+    transition: .3s ease-in-out;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.brn-navbar-menu .dropdown .dropdown-content a:hover {
+	color: white;
+	background-color: red;
+}
+
+/* DROP RIGHT BUTTON @@@@@@@@@@@@*/
+
+.dropright {
+}
+
+.dropright .dropright-content {
+    display: none;	
+}
+
+.brn-navbar-menu .dropright .dropright-content > a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px rgba(0, 0, 0, 0.6) solid;
+    transition: .3s ease-in-out;
+    left: 160px;
+}
+
+.dropright:hover .dropright-content {
+    display: block;
+    left: 180px;
+}
+.brn-navbar-menu .dropright .dropright-content > a:hover {
+	color: white;
+	background-color: red;
+}
 
 
 /* ==== Big title section ======= */
@@ -411,7 +471,7 @@ body{
    =========================
 */
 
-.brn-lp {
+.brn-latest-posts {
 	padding: 80px 0;
 	font-family: Verdana, Geneva, sans-serif;
 	text-align: left;
@@ -419,7 +479,7 @@ body{
 	font-size: 14px;
 	line-height: 22px;
 }
-.brn-lp .brn-lp-card {
+.brn-latest-posts .brn-latest-posts-card {
 	max-width: 31%;
 	margin-right: 20px;
 	display: inline-block;
@@ -427,22 +487,22 @@ body{
 	background-position: center center;
 	background-size: cover;
 }
-.brn-lp .brn-lp-card:last-of-type{
+.brn-latest-posts .brn-latest-posts-card:last-of-type{
 	margin: 0;
 }
-.brn-lp .brn-lp-card img {
+.brn-latest-posts .brn-latest-posts-card img {
 	max-width: 100%;
 	background-repeat: no-repeat;
 	background-position: center center;
 	margin-bottom: 30px;
 }
-.brn-lp .brn-lp-card h4 {
+.brn-latest-posts .brn-latest-posts-card h4 {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 20px;
 	text-transform: uppercase;
 	margin: 20px 0;
 }
-.brn-lp .brn-lp-card a {
+.brn-latest-posts .brn-latest-posts-card a {
 	text-decoration: none;
 	color: red;
 
