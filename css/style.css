@@ -185,7 +185,6 @@ body{
 .brn-big-title-section .bts-btn .btn-2 a:hover {
 	background-color: transparent;
 	border-color: #fff;
-	
 }
 /* =========================
    ===  End of Header ====
@@ -237,7 +236,7 @@ body{
 }
 .brn-about .brn-about-card span a i{
 	margin-top: 50px;
-	color: red;
+	color: #D01818;
 }
 .brn-about .brn-about-image {
 	display: inline-block;
@@ -310,13 +309,13 @@ body{
    === Portfolio Section ===
    =========================
 */
+.brn-portfolio {
+	padding-bottom: 50px;
+}
 .brn-portfolio .brn-title {
 	padding-top: 80px;
 }
 
-.brn-portfolio .rows {
-
-}
 .brn-portfolio .rows-1 {
 	display: inline-block;
 }
@@ -329,6 +328,9 @@ body{
 	margin-bottom: 30px;
 	margin-right: 20px;
 	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
 }
 .brn-portfolio-card-description {
 	padding: 30px;
@@ -356,4 +358,46 @@ body{
 }
 .brn-portfolio-card-description p {
 	line-height: 22px;
+}
+
+/* =========================
+   === Ribbon Section ===
+   =========================
+*/
+.brn-ribbon {
+	color: #fff;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+	padding: 80px 0;
+	background-image: url(../images/backgrounds/04.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.brn-ribbon h4 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 22px;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+}
+.brn-ribbon p {
+	padding-bottom: 50px;
+	margin: 0;
+	font-size: 14px;
+}
+.brn-ribbon .ribbon-btn {
+	padding: 15px 25px 17px;
+	color: white;
+	border: 1px solid red;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .5s ease-in-out;
+	background-color: red;
+}
+.brn-ribbon .ribbon-btn:hover {
+	background-color: transparent;
+	border-color: #fff;
 }
