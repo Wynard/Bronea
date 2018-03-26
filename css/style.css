@@ -199,7 +199,7 @@ body{
 
 .brn-about {
 	padding: 80px 0;
-
+	font-family: Verdana, Geneva, sans-serif;
 }
 .brn-about .brn-about-title {
 	margin: 0;
@@ -220,10 +220,24 @@ body{
 .brn-about .brn-about-content {
 	display: inline-block;
 	max-width: 49%;
+	text-align: left;
+	font-size: 14px;
+	line-height: 22px;
 }
+
 .brn-about .brn-about-card {
 	display: inline-block;
 	max-width: 49%;
+	font-size: 14px;
+}
+.brn-about .brn-about-card h4{
+	text-transform: uppercase;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+}
+.brn-about .brn-about-card span a i{
+	margin-top: 50px;
+	color: red;
 }
 .brn-about .brn-about-image {
 	display: inline-block;
@@ -231,4 +245,63 @@ body{
 }
 .brn-about .brn-about-image img {
 	max-width: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	padding: 10px;
+	border: 1px solid;
+	border-color: #D7D7D7;
+}
+
+
+/* =========================
+   === Features section ====
+   =========================
+*/
+
+.brn-features {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding: 40px 0;
+	background-color: #F3F3F3;
+}
+.brn-features .brn-features-card {
+	margin: 0;
+	margin-right: 10px;
+	display: inline-block;
+	max-width: 32%;
+}
+.brn-features .brn-features-card-wrapper {
+	display: table;
+	text-align: left;
+}
+.brn-features .brn-features-card-wrapper a {
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: .5s ease-in-out;
+}
+.brn-features .brn-features-card-wrapper a:hover {
+	color: black;
+}
+.brn-features .brn-features-card-wrapper a i {
+	width: 85px;
+	font-size: 65px;
+	color: rgba(0,0,0,.2);
+}
+.brn-features .brn-features-card-wrapper > span {
+	padding: 20px 0 ;
+	display: table-cell;
+	vertical-align: top;
+	max-width: 29%;
+}
+.brn-features-card-content {
+	display: table-cell;
+	vertical-align: top;
+	max-width: 69%;
+}
+.brn-features-card-content p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+}
+.brn-features-card-content h4 a {
+	color: #D01818;
 }
