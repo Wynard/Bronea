@@ -201,7 +201,7 @@ body{
 	padding: 80px 0;
 	font-family: Verdana, Geneva, sans-serif;
 }
-.brn-about .brn-about-title {
+.brn-title {
 	margin: 0;
 	padding: 0;
 	text-align: center;
@@ -209,7 +209,7 @@ body{
 	font-size: 22px;
 	text-transform: uppercase;
 }
-.brn-about .brn-about-description {
+.brn-description {
 	margin: 0 auto 80px;
 	padding: 0;
 	font-family: Verdana, Geneva, sans-serif;
@@ -304,4 +304,56 @@ body{
 }
 .brn-features-card-content h4 a {
 	color: #D01818;
+}
+
+/* =========================
+   === Portfolio Section ===
+   =========================
+*/
+.brn-portfolio .brn-title {
+	padding-top: 80px;
+}
+
+.brn-portfolio .rows {
+
+}
+.brn-portfolio .rows-1 {
+	display: inline-block;
+}
+.brn-portfolio .rows-2 {
+	display: inline-block;
+}
+.brn-portfolio .brn-portfolio-card {
+	max-width: 31%;
+	color: #fff;
+	margin-bottom: 30px;
+	margin-right: 20px;
+	display: inline-block;
+}
+.brn-portfolio-card-description {
+	padding: 30px;
+	padding-top: 120px;
+	margin: 0;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	text-align: left;
+	transition: .3s ease-in-out;
+}
+.brn-portfolio-card-description:hover {
+	box-shadow: 5px 5px red;
+}
+
+.brn-portfolio-card-description a {
+	color: #fff;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+	transition: .3s ease-in-out;
+}
+.brn-portfolio-card-description:hover a {
+	color: red;
+}
+.brn-portfolio-card-description p {
+	line-height: 22px;
 }
