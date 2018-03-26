@@ -401,3 +401,44 @@ body{
 	background-color: transparent;
 	border-color: #fff;
 }
+/* =========================
+   === Last Posts Section ===
+   =========================
+*/
+
+.brn-lp {
+	padding: 80px 0;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: left;
+	color: #141414;
+	font-size: 14px;
+	line-height: 22px;
+}
+.brn-lp .brn-lp-card {
+	max-width: 31%;
+	margin-right: 20px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.brn-lp .brn-lp-card:last-of-type{
+	margin: 0;
+}
+.brn-lp .brn-lp-card img {
+	max-width: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-bottom: 30px;
+}
+.brn-lp .brn-lp-card h4 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin: 20px 0;
+}
+.brn-lp .brn-lp-card a {
+	text-decoration: none;
+	color: red;
+
+}
