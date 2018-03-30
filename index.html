@@ -6,6 +6,9 @@
 	<title>Bronea</title>
 </head>
 <body>
+	<div id="go-up">
+		<a href=""><i class="fa fa-chevron-up"></i></a>
+	</div>
 	<header class="brn-header">
 		<div class="brn-very-top-bar">
 			<div class="brn-container">
@@ -49,9 +52,9 @@
     									<a href="#">Level 3</a>
     									<a href="#">Level 3</a>
     								</div>
+    							<a href="#">Level 2</a>	
     							</div>
-    							<a href="#">Level 2</a>
-							</div>
+    						</div>
 						</li>
 						<li><a href="#">link text</a></li>
 						<li><a href="#">link text</a></li>
@@ -246,5 +249,17 @@
 		</div>
 	</footer>
 </body>
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+    	scrollDuration = 700;
+        document.getElementById("go-up").style.display = "block";
+    } else {
+        document.getElementById("go-up").style.display = "none";
+    }
+}
+</script>
 </html>
 

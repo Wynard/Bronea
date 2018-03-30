@@ -118,7 +118,6 @@ body{
 /* DROP DONW BUTTON @@@@@@@@@@@@*/
 
 .dropdown {
-    position: relative;
     display: inline-block;
 }
 
@@ -156,7 +155,9 @@ body{
 }
 
 .dropright .dropright-content {
-    display: none;	
+    display: none;
+    left: 150px;
+    transform: translateX(100%);
 }
 
 .brn-navbar-menu .dropright .dropright-content > a {
@@ -165,7 +166,6 @@ body{
     display: block;
     border-bottom: 1px rgba(0, 0, 0, 0.6) solid;
     transition: .3s ease-in-out;
-    left: 160px;
 }
 
 .dropright:hover .dropright-content {
@@ -582,4 +582,37 @@ body{
 	float: right;
 	max-width: 49%;
 	display: inline-block;
+}
+
+
+/* =======Go UP Button ======
+*/
+
+#go-up {
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	background-color: rgb(255, 100, 100, 0.5);
+	-webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#go-up i {
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 10px;
+	transition: .5s ease-in-out;
+	font-size: 20px;
+}
+#go-up i:hover {
+	background-color: rgb(255, 0, 0, 1);
+	-webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+
 }
